@@ -58,3 +58,66 @@
 #
 # ci = compound_interest(10000, 10.25, 5)
 # print('ci -->',ci)
+
+
+"""Python Program for Program to find area of a circle"""
+# Area = pi * r2
+# where r is radius of circle
+# def find_area_of_circle(r):
+#     pi = 3.142
+#     area = pi*(r*r)
+#     return area
+#
+# circle_area = find_area_of_circle(5)
+# print(f"area of circle {circle_area}.")
+
+"""Python program to print all Prime numbers"""
+
+# def prime_numbers(n):
+#     while n > 1:
+#         for i in range(2, n):
+#             if n % i == 0:
+#                 break
+#         else:
+#             print(n)
+#         n-=1
+# prime_numbers(20)
+
+
+"""Python program to check whether a number is Prime or not"""
+# def check_prime(n):
+#     for i in range(2,n):
+#         if n%i == 0:
+#             print('Not a prime number')
+#             break
+#     else:
+#         print('This is a prime number')
+#
+# check_prime(7)
+
+
+"""Program to print ASCII Value of a character"""
+
+# def print_ascii(element):
+#     print("The ASCII value of '" + element + "' is " ,ord(element))
+#
+# print_ascii('g')
+
+"""Python Program for Sum of squares of first n natural numbers"""
+# def sum_of_natural_number_squares(n):
+#     sum = 0
+#     for i in range(1,n+1):
+#         sum += i*i
+#     print(sum)
+# sum_of_natural_number_squares(4)
+
+"""Python Program for cube sum of first n natural numbers"""
+
+# def sum_of_natural_number_cube(n):
+#     sum = 0
+#     for i in range(1, n + 1):
+#         sum += i * i * i
+#     print(sum)
+#
+#
+# sum_of_natural_number_cube(4)
