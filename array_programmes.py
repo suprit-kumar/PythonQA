@@ -51,3 +51,24 @@
 #     second_arr.extend(first_arr)
 #     print(second_arr)
 # split_array()
+
+
+
+"""Python Program for Find remainder of array multiplication divided by n"""
+
+# def print_array_multiplication(n,array):
+#     multipy = 1
+#     for i in array:
+#         multipy = multipy * i
+#     reminder = multipy % n
+#     return reminder
+#
+#
+# arr = [100, 10, 5, 25, 35, 14]
+# find_remainder = print_array_multiplication(11,arr)
+# print('Array multiplication reminder -->',find_remainder)
+
+
+
+"""Python Program to check if given array is Monotonic"""
+
