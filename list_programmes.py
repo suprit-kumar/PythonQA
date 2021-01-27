@@ -63,3 +63,58 @@
 #     list1.reverse()
 #     print(list1)
 # reverse_list()
+
+"""Python program to find sum of elements in list"""
+
+# def sum_of_list(arr):
+#     try:
+#         total = 0
+#         for i in arr:
+#             total = total + i
+#         return total
+#     except:
+#         return "Invalid list (List element should be integer and float)"
+#
+# my_list = [1,2,3,4,5,6,7,8,9,10]
+# ans = sum_of_list(my_list)
+# print(ans)
+
+"""Python | Multiply all numbers in the list"""
+
+# def multiplication_of_list(arr):
+#     try:
+#         total = 1
+#         for i in arr:
+#             if type(i) is int or type(i) is float:
+#                 total = total * i
+#         return total
+#     except:
+#         return "Invalid list (List element should be integer and float)"
+#
+# my_list = [1,2,3,4,5,6,7,8,9,10]
+# ans = multiplication_of_list(my_list)
+# print(ans)
+
+""""Python program to find smallest number in a list"""
+
+# def find_smallest(arr):
+#     minimum = arr[0]
+#     for i in range(len(arr)):
+#         if arr[i] < minimum:
+#             minimum = arr[i]
+#     return minimum
+# my_list = [22, 15, 84, 27, 19, 100, 5, 222, 56, 12, 6]
+# ans = find_smallest(my_list)
+# print(ans)
+
+"""Python program to find largest number in a list"""
+
+# def find_largest(arr):
+#     maximum = arr[0]
+#     for i in range(len(arr)):
+#         if arr[i] > maximum:
+#             maximum = arr[i]
+#     return maximum
+# my_list = [22, 15, 84, 27, 19, 100, 5, 222, 56, 12, 6]
+# ans = find_largest(my_list)
+# print(ans)
